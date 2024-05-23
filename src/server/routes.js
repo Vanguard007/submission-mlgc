@@ -9,7 +9,8 @@ const routes = [
       payload: {
         /*Mengizinkan data berupa gambar*/
         allow: 'multipart/form-data',
-        multipart: true
+        multipart: true,
+        maxBytes: 1000000
       }
     }
   }
